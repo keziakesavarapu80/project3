@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Registration</title>
+</head>
+<style>
+    body {
+        background-color: aqua;
+    }
+</style>
+<body>
+    <form action="loginpage.html">
+        Full Name:<input type="text" name="fname"><br><br>
+        Roll No:<input type="text" name="roll"><br><br>
+        Branch:<select name="branch">
+            <option value="CSE">CSE</option>
+            <option value="AIDS">AIDS</option>
+            <option value="ECE">ECE</option>
+            <option value="MECH">MECH</option>
+            <option value="CIVIL">CIVIL</option>
+        </select>
+        Gender <input type="radio" name="m" value="M">Male
+               <input type="radio" name="f" value="F">Female
+               <input type="radio" name="o" value="O">Others
+        Father Name:<input type="text" name="faname"><br><br>
+        Mother Name:<input type="text" name="Moname"><br><br>
+        Date of Birth :<input type="date" name="birthday">
+     
+        Message:<textarea name="mytest" cols="10" row="10"></textarea><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
